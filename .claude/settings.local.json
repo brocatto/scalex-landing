@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/bktto/**)",
+      "Bash(ssh-keygen:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
