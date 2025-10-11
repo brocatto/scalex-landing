@@ -1,0 +1,49 @@
+/* Estilos específicos para a página demo-book */
+
+.calendly-container {
+    margin: 3rem 0 2rem 0;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    border: 1px solid rgba(64, 224, 208, 0.2);
+}
+
+.demo-book .demo-hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.demo-book .demo-title {
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.demo-book .demo-subtitle {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsividade para demo-book */
+@media (max-width: 768px) {
+    .calendly-container {
+        padding: 1rem;
+        margin: 2rem 0 1rem 0;
+    }
+    
+    .demo-book .demo-subtitle {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .calendly-container {
+        padding: 0.5rem;
+    }
+    
+    .demo-book .demo-subtitle {
+        font-size: 1rem;
+    }
+}
