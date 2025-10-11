@@ -5991,13 +5991,13 @@ body {
 @media (max-width: 768px) {
     .results-carousel-container {
         max-width: 100%;
-        padding: 1.5rem 0.5rem;
+        padding: 1.5rem 0;
         overflow-x: auto;
         overflow-y: hidden;
     }
 
     .result-card-spotlight {
-        width: 320px;
+        width: 280px;
         max-width: 85vw;
     }
 
@@ -6009,28 +6009,28 @@ body {
         gap: 0.5rem;
         width: fit-content;
         min-width: 100%;
-        padding: 0 1rem;
+        padding: 0;
     }
 }
 
 @media (max-width: 480px) {
     .results-carousel-container {
         max-width: 100%;
-        padding: 1rem 0.25rem;
+        padding: 1rem 0;
         overflow-x: auto;
         overflow-y: hidden;
     }
 
     .result-card-spotlight {
-        width: 300px;
-        max-width: 95vw;
+        width: 260px;
+        max-width: 90vw;
     }
 
     .results-carousel-track {
-        gap: 0.5rem;
+        gap: 0.25rem;
         width: fit-content;
         min-width: 100%;
-        padding: 0 1rem;
+        padding: 0;
     }
 
     .result-slide.active .result-card-spotlight {
