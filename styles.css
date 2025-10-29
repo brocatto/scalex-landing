@@ -728,7 +728,7 @@ body {
   margin-top: 0;
 }
 
-/* DEBUG: VERSAO_2025_v5 - Limpeza completa, removidas gambiarras */
+/* DEBUG: VERSAO_2025_v6 - Otimização mobile para evitar cortes */
 /* Responsividade otimizada para diferentes tamanhos de tela */
 
 /* Desktop muito grande (4K, zoom reduzido) */
@@ -788,8 +788,17 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(1.35rem, 3.8vw, 1.6rem);
-    line-height: 1.35;
+    font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 0.5rem;
+  }
+
+  .hero-title .line-1,
+  .hero-title .line-2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .hero-subtitle {
@@ -826,8 +835,17 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(1.2rem, 4.25vw, 1.45rem);
-    line-height: 1.4;
+    font-size: clamp(1.1rem, 4vw, 1.35rem);
+    line-height: 1.45;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 0.5rem;
+  }
+
+  .hero-title .line-1,
+  .hero-title .line-2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .hero-subtitle {
@@ -886,8 +904,17 @@ body {
 /* Mobile pequeno */
 @media (max-width: 360px) {
   .hero-title {
-    font-size: clamp(1rem, 4.7vw, 1.2rem);
-    line-height: 1.45;
+    font-size: clamp(0.95rem, 4.5vw, 1.15rem);
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 0.5rem;
+  }
+
+  .hero-title .line-1,
+  .hero-title .line-2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .hero-subtitle {
