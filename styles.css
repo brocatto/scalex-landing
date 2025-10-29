@@ -728,7 +728,7 @@ body {
   margin-top: 0;
 }
 
-/* DEBUG: VERSAO_2025_v6 - Otimização mobile para evitar cortes */
+/* DEBUG: VERSAO_2025_v7 - Mobile otimizado: quebra natural entre palavras, sem cortar palavras */
 /* Responsividade otimizada para diferentes tamanhos de tela */
 
 /* Desktop muito grande (4K, zoom reduzido) */
@@ -788,17 +788,9 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(1.25rem, 3.5vw, 1.5rem);
-    line-height: 1.4;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    padding: 0 0.5rem;
-  }
-
-  .hero-title .line-1,
-  .hero-title .line-2 {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    font-size: clamp(1.15rem, 3.2vw, 1.4rem);
+    line-height: 1.45;
+    padding: 0 1rem;
   }
 
   .hero-subtitle {
@@ -835,17 +827,9 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(1.1rem, 4vw, 1.35rem);
-    line-height: 1.45;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    padding: 0 0.5rem;
-  }
-
-  .hero-title .line-1,
-  .hero-title .line-2 {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    font-size: clamp(1.05rem, 3.8vw, 1.3rem);
+    line-height: 1.5;
+    padding: 0 1rem;
   }
 
   .hero-subtitle {
@@ -904,17 +888,9 @@ body {
 /* Mobile pequeno */
 @media (max-width: 360px) {
   .hero-title {
-    font-size: clamp(0.95rem, 4.5vw, 1.15rem);
-    line-height: 1.5;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    padding: 0 0.5rem;
-  }
-
-  .hero-title .line-1,
-  .hero-title .line-2 {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    font-size: clamp(0.9rem, 4.2vw, 1.1rem);
+    line-height: 1.55;
+    padding: 0 0.75rem;
   }
 
   .hero-subtitle {
