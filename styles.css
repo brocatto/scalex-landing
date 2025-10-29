@@ -715,7 +715,7 @@ body {
   align-items: center;
   justify-content: center;
   /* Tamanho de fonte fluído que se adapta à viewport */
-  font-size: clamp(1.5rem, 4vw, 3.5rem);
+  font-size: clamp(1.3rem, 3.4vw, 3rem);
 }
 
 .hero-title .line-1,
@@ -755,7 +755,7 @@ body {
 /* Desktop muito grande (4K, zoom reduzido) */
 @media (min-width: 1920px) {
   .hero-title {
-    font-size: clamp(3rem, 3.5vw, 4rem);
+    font-size: clamp(2.55rem, 3vw, 3.4rem);
     line-height: 1.1;
     max-width: 100vw;
     margin-left: auto;
@@ -773,7 +773,7 @@ body {
 /* Desktop grande */
 @media (max-width: 1919px) and (min-width: 1600px) {
   .hero-title {
-    font-size: clamp(2.8rem, 3.2vw, 3.5rem);
+    font-size: clamp(2.4rem, 2.7vw, 3rem);
     line-height: 1.15;
     max-width: 100vw;
     margin-left: auto;
@@ -791,7 +791,7 @@ body {
 /* Desktop padrão */
 @media (max-width: 1599px) and (min-width: 1367px) {
   .hero-title {
-    font-size: clamp(2.5rem, 3vw, 3.2rem);
+    font-size: clamp(2.1rem, 2.55vw, 2.7rem);
     line-height: 1.2;
     max-width: 100vw;
     margin-left: auto;
@@ -806,7 +806,7 @@ body {
   }
 }
 
-/* DEBUG: VERSAO_2025_v3 - Se você ver isso no DevTools, o CSS está atualizado */
+/* DEBUG: VERSAO_2025_v4 - Redução 15% nos tamanhos de fonte */
 /* Notebooks comuns (1366px, 1440px) */
 @media (max-width: 1366px) and (min-width: 1025px) {
   .hero .container {
@@ -821,7 +821,7 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(1.9rem, 2.3vw, 2.4rem);
+    font-size: clamp(1.6rem, 1.95vw, 2rem);
     line-height: 1.35;
     max-width: 100%;
     width: 100%;
@@ -843,7 +843,7 @@ body {
 /* Tablet landscape e notebooks pequenos */
 @media (max-width: 1024px) and (min-width: 769px) {
   .hero-title {
-    font-size: clamp(2rem, 2.5vw, 2.4rem);
+    font-size: clamp(1.7rem, 2.1vw, 2rem);
     line-height: 1.25;
     max-width: 95vw;
     transform: none;
@@ -872,7 +872,7 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(1.6rem, 4.5vw, 1.9rem);
+    font-size: clamp(1.35rem, 3.8vw, 1.6rem);
     line-height: 1.35;
     padding: 0 1rem;
     max-width: 95vw;
@@ -920,7 +920,7 @@ body {
   }
 
   .hero-title {
-    font-size: clamp(1.4rem, 5vw, 1.7rem) !important;
+    font-size: clamp(1.2rem, 4.25vw, 1.45rem) !important;
     line-height: 1.4;
     padding: 0 0.75rem;
     max-width: 95vw;
@@ -991,7 +991,7 @@ body {
 /* Mobile pequeno - só ajustes menores */
 @media (max-width: 360px) {
   .hero-title {
-    font-size: clamp(1.2rem, 5.5vw, 1.4rem) !important;
+    font-size: clamp(1rem, 4.7vw, 1.2rem) !important;
     line-height: 1.45;
     padding: 0 0.5rem;
   }
@@ -1017,7 +1017,7 @@ body {
 /* Ajustes para zoom alto (150%+) */
 @media (max-width: 1280px) and (min-resolution: 144dpi) {
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.125rem;
     margin: 0 auto;
   }
 }
@@ -1025,14 +1025,14 @@ body {
 /* Ajustes para zoom muito alto (200%+) */
 @media (max-width: 960px) and (min-resolution: 192dpi) {
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 0 auto;
   }
 }
 
 @media (max-width: 360px) {
   .hero-title {
-    font-size: clamp(1.2rem, 5.5vw, 1.4rem);
+    font-size: clamp(1rem, 4.7vw, 1.2rem);
     line-height: 1.45;
     padding: 0 0.5rem;
   }
